@@ -113,6 +113,8 @@ CC=pd.concat([CC,new],axis=1)
 CC
 ~~~
 <img width="760" height="365" alt="Screenshot 2026-08-18 153358" src="https://github.com/user-attachments/assets/2d0d1fde-c144-4dfc-a06e-10bbc2c9b5ad" />
+
+
 ~~~
 # FEATURE TRANSFORMATION 
 import pandas as pd 
