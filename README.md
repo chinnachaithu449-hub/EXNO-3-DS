@@ -129,6 +129,8 @@ df
 df.skew()
 ~~~
 <img width="511" height="122" alt="Screenshot 2026-08-18 153609" src="https://github.com/user-attachments/assets/825a5074-5d2a-4991-83e2-9a0cdf381129" />
+
+
 ~~~
 # 1. LOG TRANSFORMATION 
 np.log(df["Highly Positive Skew"])
@@ -160,6 +162,8 @@ df["Highly Positive Skew_boxcox"], parameters=stats.boxcox(df["Highly Positive S
 df
 ~~~
 <img width="1190" height="442" alt="Screenshot 2026-08-18 154113" src="https://github.com/user-attachments/assets/ea948694-64dc-4b5b-adc0-d08a8a81e9cf" />
+
+
 ~~~
 df.skew()
 ~~~
@@ -171,6 +175,8 @@ df["Highly Negative Skew_yeojohnson"],parameters=stats.yeojohnson(df["Highly Neg
 df
 ~~~
 <img width="1330" height="385" alt="Screenshot 2026-08-18 154428" src="https://github.com/user-attachments/assets/6d0c2b30-6421-4bab-aebd-fa18d3ec87a0" />
+
+
 ~~~
 # QUANTILE TRANSFORMATION 
 from sklearn.preprocessing import QuantileTransformer 
@@ -179,6 +185,8 @@ df["Moderate Negative Skew_1"]=qt.fit_transform(df[["Moderate Negative Skew"]])
 df
 ~~~
 <img width="1337" height="468" alt="Screenshot 2026-08-18 154516" src="https://github.com/user-attachments/assets/d4e5cb57-d47b-474b-a9e3-16343a337a75" />
+
+
 ~~~
 import seaborn as sns 
 import statsmodels.api as sm 
@@ -210,38 +218,7 @@ plt.show()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # RESULT:
-       # INCLUDE YOUR RESULT HERE
+      The dataset was successfully cleaned, encoded, transformed, and saved as a preprocessed dataset. This makes the data suitable for further machine learning and data analysis tasks.
 
        
